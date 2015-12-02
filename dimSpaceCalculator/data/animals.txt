@@ -1,6 +1,0 @@
-cats 1
-dogs 3
-hamsters 0
-frogs 3
-tortoises 8
-rabbits 4
