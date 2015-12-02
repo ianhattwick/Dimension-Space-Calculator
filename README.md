@@ -7,25 +7,17 @@ The dimension space calculator uses two CSV files as input.
 Once the csv files have been set, simply run the sketch and the output will be a vector pdf file in the same folder as the processing sketch.
 
 The first CSV file defines the axes and labels of the dimensions space in the format:
-(axisName,lowAcixValue,. . .,highAxisValue). 
+(axisName,lowAxisValue,...,highAxisValue). 
 Note that the number of axis values is arbitrary - it will automatically space them appropriately.
 
 The example provided has seven axes:
-
 cats,0,1,2,3,4
-
 dogs,0,5,20,100
-
 hamsters,0,1
-
 frogs,green,brown
-
 tortoises,green,grey
-
 rabbits,cute,cuter, cutest
-
 people,mean,nice
-
 
 The second CSV file defines an item to be placed into the dimension space. This file has the format:
 (axis,axisValue) - note each line can only have two items.
