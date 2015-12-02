@@ -11,12 +11,19 @@ The first CSV file defines the axes and labels of the dimensions space in the fo
 Note that the number of axis values is arbitrary - it will automatically space them appropriately.
 
 The example provided has seven axes:
+
 cats,0,1,2,3,4
+
 dogs,0,5,20,100
+
 hamsters,0,1
+
 frogs,green,brown
+
 tortoises,green,grey
+
 rabbits,cute,cuter, cutest
+
 people,mean,nice
 
 The second CSV file defines an item to be placed into the dimension space. This file has the format:
